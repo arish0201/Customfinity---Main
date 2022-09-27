@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	-webkit-transition: .2s linear;
+	transition: .2s linear;
+}
+
+html {
+	font-size: 89.5%;
+	scroll-behavior: smooth;
+	scroll-padding-top: 7rem;
+	overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+	width: auto;
+}
+
+html::-webkit-scrollbar-track {
+	background: #fff;
+}
+
+html::-webkit-scrollbar-thumb {
+	background: #7744AA;
+	border-radius: 5rem;
+}
+
+header {
+	background: linear-gradient(to right, #3494e6, #ec6ead);
+}
+
+nav {
+	box-shadow: 0px 15px 10px -15px #111;
+}
+
+.dropdown-menu {
+	background-color: #C58CFF !important;
+}
+
+.dropdown-menu a{
+	color: white !important;
+	text-align: center;
+}
+
+.dropdown-menu a:hover{
+	color: black !important;
+}
+
+.nav-link {
+	color: white;
+	text-align: center;
+  }
+  
+  .nav-link:hover {
+	color: #fff;
+  }
+  
+  .nav-item {
+	position: relative;
+	color: white;
+	text-decoration: none;
+	margin-top: 5px;
+  }
+  
+  .nav-item::before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #7157e0;
+	transform: scaleX(0);
+	transition: transform 0.3s ease;
+  }
+  
+  .nav-item:hover::before {
+	transform: scaleX(1);
+  }
+
+.theme-text {
+	color: #7744AA;
+}
+
+.h-heading{
+    color: #7744AA;
+}
+#h-heading{
+    color: white;
+}
+
+/* Banner */
+#banner{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#btn{
+	border-radius: 50px;
+}
+/* Cards */
+
+#cards {
+	background-image: url("../../images/5c292d_3fb5fac5a01c44afa9cda6122877f641_mv2.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 3em;
+	padding-bottom: 3em;
+  }
+#box-card{
+	box-shadow: 3px 3px 20px -5px #111;
+}
+#r-1{
+    background-color: #ec6ead;
+    color: white;
+    border-bottom: 2px solid white;
+}
+#r-2{
+	background-color: #3494e6;
+	color: white;
+    border-bottom: 2px solid white;
+}
+
+#col-1{
+    background-color: #ef85ba;
+    color: white;
+}
+#col-2{
+	color: black;
+	background-color: white;
+}
+#col-3{
+	background-color: rgb(233, 233, 233);
+}
+#col-a{
+    background-color: #4ba0e9;
+    color: white;
+}
+#col-b{
+	color: black;
+	background-color: white;
+}
+#col-c{
+	background-color: rgb(233, 233, 233);
+}
+
+
+ul li p{
+	color: #666;
+	font-size: 0.9em;
+}
+ul li b{
+	font-weight: 700;
+	font-size: 0.9em;
+	color: #666;
+}
+
+#bold{
+	font-weight: 700;
+	font-size: 0.9em;
+	color: #666;
+}
+
+
+
+
+/* Footer */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+section {
+	padding: 60px 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.contact-area {
+	border-bottom: 1px solid rgb(219, 211, 211);
+}
+
+.contact-content p {
+	font-size: 15px;
+	margin: 30px 0 60px;
+	position: relative;
+}
+
+.contact-content p::after {
+	background: rgb(219, 211, 211);
+	bottom: -30px;
+	content: "";
+	height: 1px;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%);
+	width: 80%;
+}
+
+.contact-content h6 {
+	color: white;
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.contact-content span {
+	color: white;
+	margin: 0 10px;
+}
+
+.contact-social {
+	margin-top: 30px;
+}
+
+.contact-social>ul {
+	display: inline-flex;
+}
+
+.contact-social ul li a {
+	border: 1px solid white;
+	color: white;
+	display: inline-block;
+	height: 40px;
+	margin: 0 7px;
+	padding-top: 7px;
+	transition: all 0.2s ease 0s;
+	width: 40px;
+	justify-content: center;
+}
+
+.contact-social ul li a:hover {
+	border: 2px solid #7744AA;
+	color: #74a;
+}
+
+.contact-content img {
+	max-width: 300px;
+}
+
+section,
+footer {
+	background: linear-gradient(to right, #3494e6, #ec6ead);
+	color: white;
+}
+
+footer p {
+	padding: 40px 0;
+	text-align: center;
+	margin-bottom: 0rem;
+}
+
+footer img {
+	width: 100px;
+}
