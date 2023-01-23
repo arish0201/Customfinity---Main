@@ -1,4 +1,4 @@
-// HOME SCRIPT
+// index SCRIPT
 
 var swiper = new Swiper(".featured-slider", {
     centeredSlides: true,
